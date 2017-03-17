@@ -1,0 +1,99 @@
+.menu-lat{
+    margin: 0 auto;
+    width: 98%;
+}
+
+.menu-lat ul{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    background: #dbe4f2;
+}
+
+.menu-lat ul li{
+    float: left;
+    width: auto; 
+    margin-right: 3ex;
+}
+.menu-lat ul li a{    
+    padding: 1ex;
+    background: #2dadbe;
+    text-shadow: 0px 0px 1px #333;
+    color: #f7f1f1;
+    font-weight: 400;
+    position: relative;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+form span.termo{
+    color: #327aed;
+}
+
+.gestion-pr{
+    width: 95%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 7px;
+    border: 1px solid #898787;
+    border-radius: 5px;
+    overflow: none  ;
+    box-shadow: 0px 0px 10px #333;
+}
+.gestion-pr h3, .gestion-pr h4{
+    text-align: center;
+}
+.gestion-pr .input-group{
+    width: 100%;
+}
+.gestion-pr .mdle{
+    width: 30%;
+    margin-right: 5%;
+    min-width: 350px;
+    float: left;
+}
+
+.gestion-pr .termo-thead1{
+    background: #427ff4;
+    color: #EEE;
+    text-shadow: 0px 1px 2px #111;
+}
+.gestion-pr .termo-thead2{
+    background: #42b6f4;
+    color: #EEE;
+    text-shadow: 0px 1px 2px #111;
+}
+table.table tr{
+    font-size: 14px;
+}
+table.table tr td{
+    padding: 4px;
+}
+.identificador{
+    color: #fd065b;
+}
+#uploader-div{
+    background: #FFF;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px #aaa inset;
+}
+#uploader, .ajax-upload-dragdrop{
+    display: inline-flex;
+}
+#paginadores, .paginador{
+    overflow: hidden;
+}
+
+#div-add-doc{
+    width: 97%;
+    margin: 0 auto;
+    position: relative;
+}
+#text-archivos{ 
+    border: 1px solid #aaa;
+}

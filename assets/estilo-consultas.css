@@ -1,0 +1,99 @@
+.cont-datos-ver{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 1ex;
+    box-sizing: border-box;
+}
+.cont-datos-ver .datos-ver{
+    float: left;
+    min-width: 33.3%;    
+    box-sizing: border-box;
+    font-size: 16px;    
+    border: 1px #d1d1d1 solid; 
+}
+#nombre{
+    width: 66.5%;
+}
+.cont-datos-ver .datos-ver span{
+    padding: 1ex;
+    display: inline-block;
+}
+.cont-datos-ver table a.btn{
+    padding: 3px;
+}
+table.table a.btn, table.table button.btn{
+    padding: 3px;
+}
+.datos-ver .etiqueta{
+    background: #baf884;
+}
+.datos-ver .etiqueta2{
+    background: #f0f0f0;
+}
+.datos-ver .data{
+    color: #2677f8;
+}
+
+.barra-despliegue-datos{
+    margin: 0 auto;
+    width: 95%;
+    background: #e4f0f7;
+    padding: 2px;
+    border: 1px solid #81d3d9;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.barra-despliegue-datos label{
+    margin-bottom: 0;
+}
+.barra-despliegue-datos span{
+    padding-right: 2px;     
+    float: right;
+}
+#ver-documentos, #ver-cargos{
+    border: 1px solid #94dbd3;
+    border-top: none;
+}
+div.spacer{
+    height: 4px;
+}
+div.block{
+    padding: 1px;
+    margin: 4px;
+    border: 1px solid #eee;
+}
+.nodisplay{
+    padding-top: 2px;
+    display: none;
+}
+.agregar-section{
+    width: 98%;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    background: rgb(245, 245, 242);
+    border: 1px solid #aaa;
+}
+
+#btn-ver{
+    text-shadow: none ;
+    box-shadow: none;
+    float: right;
+}
+div .btn {
+    padding: 1px;
+}
+
+#observacion{
+    position:fixed; 
+    top:20ex; 
+    right: 10ex;
+    min-height: 300px; 
+    width:400px;
+    padding: 1ex; 
+    box-shadow: 0px 0px 4px 3px #999; 
+    background: #FFF;
+    z-index: 10;
+    display: none;
+}
