@@ -91,7 +91,7 @@
 				<div class="col-sm-5 diver-mid">
 					<h4 class="bg-info rounded">Validacion avanzada:</h4>
 					<?php
-					if (isset($priv->{1})) {
+					if (isset($priv->{1}) || isset($priv->{60})) {
 					?>
 							<span data-icon="7"></span>
 							<a href="<?php echo site_url("corrector/formModPefil") ?>" class="btn btn-primary" data-icon="~">
