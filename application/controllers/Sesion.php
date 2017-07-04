@@ -22,6 +22,7 @@ class Sesion extends CI_Controller {
 			$base = $this->input->post("d6");
 			$data = $this->input->post("d3");
 			$nombre_usuario = $this->input->post("d7");
+			$tipo_visualizacion = $this->input->post("d8");
 			if(!isset($id) && !isset($data)){
 				echo "fallo de entrega de datos";
 				return;
@@ -38,7 +39,8 @@ class Sesion extends CI_Controller {
 					"usuario" =>$id,
 					"base_idbase"=>$base,
 					"isess"=>TRUE,
-					"nombre_usuario"=>$nombre_usuario)
+					"nombre_usuario"=>$nombre_usuario,
+					"tipo_visualizacion"=>$tipo_visualizacion)
 				);
 			echo $this->buscar_app($sess[2]->apps);
 		} catch (Exception $e) {
